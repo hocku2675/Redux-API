@@ -1,0 +1,38 @@
+.link-active{
+    font-weight: bold;
+    color:red;
+}
+.layout-links {
+    display: flex;
+    justify-content:right;
+    margin-top: 5%;
+    margin-right: 5%;
+    font-size: 30px;
+    gap: 3rem;
+  
+  }
+
+  .line {
+   
+    border-bottom: 1px solid grey;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 400px;
+   }
+
+   .footer-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: -15%;
+    margin-left: 7%;
+    margin-right: 7%;
+    color: grey;
+  } 
+  
+  .footer-text div {
+    display: grid;
+    justify-content: center;
+  }

@@ -1,0 +1,43 @@
+.users {
+    display: grid;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.users a {
+    text-decoration: none;
+    color: #000;
+}
+.users a:hover {
+    color: red;
+}
+.users div {
+    width: fit-content;
+}
+.user-info {
+    font-weight: bold;
+    font-size: 24px;
+    align-items: center;
+}
+#albums {
+    font-weight: bold;
+    align-items: center;
+}
+
+.albums-list {
+    margin-top: 3%;
+}
+
+#user-prop {
+    font-size: 20px;
+}
+#user-prop a {
+    text-decoration: none;
+    color: #000;
+}
+#user-prop a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
